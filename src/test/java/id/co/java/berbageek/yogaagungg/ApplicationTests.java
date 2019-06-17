@@ -1,4 +1,4 @@
-package id.yogaagung.berbageek;
+package id.co.java.berbageek.yogaagungg;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

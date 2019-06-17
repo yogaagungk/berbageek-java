@@ -1,4 +1,4 @@
-package id.yogaagung.berbageek;
+package id.co.java.berbageek.yogaagungg;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
