@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Petani</title>
+</head>
+<body>
+<h3>Daftar Petani</h3>
+<table border="1">
+    <thead>
+        <th>Nama</th>
+        <th>No Telp</th>
+    </thead>
+    <tbody th:each="petani:${petanies}">
+        <tr>
+            <td th:text="${petani.namaLengkap}"></td>
+            <td th:text="${petani.noTelp}"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
